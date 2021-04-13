@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "676452110847",
+    "project_id": "smileypal",
+    "storage_bucket": "smileypal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676452110847:android:0746aa650803677b1697ca",
+        "android_client_info": {
+          "package_name": "com.jayyaj.smileypal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676452110847-vvdhts0h01cisave8r60cb0j1d3deom9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWTosqKotpd6Bn2xntyf6LKpbQa5W_yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676452110847-vvdhts0h01cisave8r60cb0j1d3deom9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
