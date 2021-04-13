@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SmileyPal</string>
+    <string name="toggle_button_text">Toggle</string>
 </resources>
