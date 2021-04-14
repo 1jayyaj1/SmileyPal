@@ -16,7 +16,7 @@
         android:background="@android:color/darker_gray" />
 
     <FrameLayout
-        android:id="@+id/bottomSheetBottom"
+        android:id="@+id/bottomSheetButton"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_margin="8dp"

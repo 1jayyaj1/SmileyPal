@@ -33,8 +33,8 @@ public class FaceDetectionRecyclerAdapter extends RecyclerView.Adapter<FaceDetec
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         FaceDetection faceDetection = faceDetectionList.get(position);
-        holder.text1.setText(faceDetection.getText());
-
+        holder.text1.setText(String.valueOf(faceDetection.getId()));
+        holder.text2.setText(faceDetection.getText());
     }
 
     @Override
@@ -44,9 +44,11 @@ public class FaceDetectionRecyclerAdapter extends RecyclerView.Adapter<FaceDetec
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         public TextView text1;
+        public TextView text2;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             text1 = itemView.findViewById(R.id.row_fd_text1);
+            text2 = itemView.findViewById(R.id.row_fd_text2);
         }
     }
 }

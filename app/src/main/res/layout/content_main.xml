@@ -19,7 +19,12 @@
         <com.otaliastudios.cameraview.CameraView
             android:id="@+id/faceDetectionCameraView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            app:cameraFrameProcessingMaxWidth="640"
+            app:cameraFrameProcessingMaxHeight="640"
+            app:cameraFrameProcessingFormat="0x23"
+            app:cameraFrameProcessingPoolSize="2"
+            app:cameraFrameProcessingExecutors="1"/>
 
         <ImageView
             android:id="@+id/faceDetectionCameraImageView"
@@ -40,6 +45,12 @@
         android:id="@+id/faceDetectionImageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="90dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="parent"
         android:scaleType="fitCenter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
