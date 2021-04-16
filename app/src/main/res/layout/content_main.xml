@@ -25,12 +25,6 @@
             app:cameraFrameProcessingFormat="0x23"
             app:cameraFrameProcessingPoolSize="2"
             app:cameraFrameProcessingExecutors="1"/>
-
-        <ImageView
-            android:id="@+id/faceDetectionCameraImageView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop" />
     </FrameLayout>
 
     <ImageView
